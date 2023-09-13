@@ -4,7 +4,6 @@ from rest_framework import status
 from .models import User
 from . import views
 
-
 class UserTests(TestCase):
     @classmethod
     def setUpTestData(cls):
