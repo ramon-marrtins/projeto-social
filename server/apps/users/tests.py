@@ -12,7 +12,7 @@ class UserTests(TestCase):
             name='Ramon',
             username='ramon',
             password='ramon',
-            email='remon@test.com',
+            email='ramon@test.com',
             role=3,
         )
 
