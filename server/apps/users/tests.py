@@ -31,10 +31,10 @@ class UserTests(TestCase):
     def test_create_user(self):
         print("--> HTTP(PUT) api/users: create a new user.")
         request_data = {
-            "name": "teste",
-            "username": "teste",
-            "password": "teste",
-            "email": "teste@teste.com",
+            "name": "affs",
+            "username": "affs",
+            "password": "affs",
+            "email": "tres@affs.com",
             "role": 3
         }
         request = self.client.put('/api/users/', request_data, format="json")
@@ -51,3 +51,5 @@ class UserTests(TestCase):
 
         self.assertIsNotNone(response.data)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    
