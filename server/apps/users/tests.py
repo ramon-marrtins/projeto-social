@@ -9,10 +9,10 @@ class UserTests(TestCase):
     @classmethod
     def setUpTestData(cls):
         User.objects.create_user(
-            name='Renan',
-            username='renan',
-            password='renan',
-            email='renan@test.com',
+            name='Ramon',
+            username='ramon',
+            password='ramon',
+            email='ramon@test.com',
             role=3,
         )
 
